@@ -1,26 +1,25 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://src/Node.gd" type="Script" id=1]
 [ext_resource path="res://src/cardCollections/Deck.gd" type="Script" id=2]
 [ext_resource path="res://src/cardCollections/Discard.gd" type="Script" id=3]
 [ext_resource path="res://src/cardCollections/Hand.gd" type="Script" id=4]
 [ext_resource path="res://src/cardCollections/Labyrinth.gd" type="Script" id=5]
+[ext_resource path="res://src/cardCollections/Doors.gd" type="Script" id=6]
 
 [node name="Node" type="Node"]
 script = ExtResource( 1 )
 
 [node name="Deck" type="Sprite" parent="."]
 position = Vector2( 100, 810 )
-scale = Vector2( 0.8, 0.8 )
 script = ExtResource( 2 )
 
 [node name="Discard" type="Sprite" parent="."]
-position = Vector2( 220, 810 )
-scale = Vector2( 0.8, 0.8 )
+position = Vector2( 300, 810 )
 script = ExtResource( 3 )
 
 [node name="Hand" type="Node2D" parent="."]
-position = Vector2( 400, 810 )
+position = Vector2( 500, 810 )
 script = ExtResource( 4 )
 
 [node name="Labyrinth" type="Node2D" parent="."]
@@ -31,4 +30,4 @@ script = ExtResource( 5 )
 
 [node name="Doors" type="Node2D" parent="."]
 position = Vector2( 100, 270 )
-script = ExtResource( 5 )
+script = ExtResource( 6 )

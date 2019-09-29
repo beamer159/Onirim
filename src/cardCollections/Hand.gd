@@ -8,9 +8,9 @@ func init(deck_in, limbo_in):
 	limbo = limbo_in
 
 func add_card(card: Card):
-	card.position = Vector2(get_child_count() * 140, 0)
 	add_child(card)
 	card.show()
+	_reorder()
 
 func replenish():
 	while get_child_count() < 5:
@@ -25,3 +25,8 @@ func replenish():
 		limbo.remove_child(card)
 		deck.add_child(card)
 	deck.shuffle()
+
+func _reorder():
+	for i in get_child_count():
+		var card: CardSymboled = get_child(i)
+		card.position = Vector2(i * 140, 0)

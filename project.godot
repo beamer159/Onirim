@@ -23,11 +23,17 @@ _global_script_classes=[ {
 "class": "CardSymboled",
 "language": "GDScript",
 "path": "res://src/cards/CardSymboled.gd"
+}, {
+"base": "Sprite",
+"class": "Deck",
+"language": "GDScript",
+"path": "res://src/cardCollections/Deck.gd"
 } ]
 _global_script_class_icons={
 "Card": "",
 "CardColored": "",
-"CardSymboled": ""
+"CardSymboled": "",
+"Deck": ""
 }
 
 [application]
@@ -45,7 +51,6 @@ CardGlobals="*res://src/cards/CardGlobals.gd"
 window/size/width=1920
 window/size/height=1080
 window/size/resizable=false
-window/size/borderless=true
 
 [rendering]
 
