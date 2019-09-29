@@ -1,0 +1,23 @@
+{
+    "folder": "res://assets/images/",
+    "cardback": "CardBack.png",
+    "cards": [
+        { "filename": "BlueDoor.png", "count": 2, "type": 0, "color": 0 },
+        { "filename": "BrownDoor.png", "count": 2, "type": 0, "color": 1 },
+        { "filename": "GreenDoor.png", "count": 2, "type": 0, "color": 2 },
+        { "filename": "RedDoor.png", "count": 2, "type": 0, "color": 3 },
+        { "filename": "Nightmare.png", "count": 10, "type": 1 },
+        { "filename": "BlueKey.png", "count": 3, "type": 2, "color": 0, "symbol": 0 },
+        { "filename": "BlueMoon.png", "count": 4, "type": 2, "color": 0, "symbol": 1 },
+        { "filename": "BlueSun.png", "count": 8, "type": 2, "color": 0, "symbol": 2 },
+        { "filename": "BrownKey.png", "count": 3, "type": 2, "color": 1, "symbol": 0 },
+        { "filename": "BrownMoon.png", "count": 4, "type": 2, "color": 1, "symbol": 1 },
+        { "filename": "BrownSun.png", "count": 6, "type": 2, "color": 1, "symbol": 2 },
+        { "filename": "GreenKey.png", "count": 3, "type": 2, "color": 2, "symbol": 0 },
+        { "filename": "GreenMoon.png", "count": 4, "type": 2, "color": 2, "symbol": 1 },
+        { "filename": "GreenSun.png", "count": 7, "type": 2, "color": 2, "symbol": 2 },
+        { "filename": "RedKey.png", "count": 3, "type": 2, "color": 3, "symbol": 0 },
+        { "filename": "RedMoon.png", "count": 4, "type": 2, "color": 3, "symbol": 1 },
+        { "filename": "RedSun.png", "count": 9, "type": 2, "color": 3, "symbol": 2 }
+    ]
+}
