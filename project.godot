@@ -8,9 +8,26 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[ {
+"base": "Sprite",
+"class": "Card",
+"language": "GDScript",
+"path": "res://src/cards/Card.gd"
+}, {
+"base": "Sprite",
+"class": "CardColored",
+"language": "GDScript",
+"path": "res://src/cards/CardColored.gd"
+}, {
+"base": "Sprite",
+"class": "CardSymboled",
+"language": "GDScript",
+"path": "res://src/cards/CardSymboled.gd"
+} ]
 _global_script_class_icons={
-
+"Card": "",
+"CardColored": "",
+"CardSymboled": ""
 }
 
 [application]
@@ -18,6 +35,10 @@ _global_script_class_icons={
 config/name="Onirim"
 run/main_scene="res://src/Node.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+CardGlobals="*res://src/cards/CardGlobals.gd"
 
 [rendering]
 
